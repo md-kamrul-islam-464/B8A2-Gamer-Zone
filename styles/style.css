@@ -159,6 +159,7 @@ nav a{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));    
     border: 0;
+    margin-right: 15px;
 }
 
 .banner-btn-2{
@@ -216,6 +217,12 @@ nav a{
     width: 260px;
     height: 310px;
     border-radius: 16px;
+}
+
+
+.funny-video-hover:hover{
+    background: #000;
+    cursor: pointer;  
 }
 
 
@@ -656,8 +663,6 @@ header{
     }
 
     .buttons-content-2{
-    /* display: grid;
-    grid-template-columns: repeat(1fr); */
     display: flex;
     justify-content: space-between;
     padding: 0 45px 0 92px; 
@@ -680,10 +685,6 @@ header{
     border-radius: 10px;
     margin-top: 80px;
    }
-
-   /* .footer-title{
-    padding: 10px 100px 5px 100px;
-   } */
 
    .footer-data{
     color: #FFF;
@@ -710,8 +711,6 @@ header{
     }
 
     .footer-rules{
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     align-items: center;
     margin-top: 60px;
     text-align: center;
