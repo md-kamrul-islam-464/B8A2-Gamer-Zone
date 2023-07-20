@@ -599,7 +599,7 @@ nav a{
 
 
 /* 
-@media screen and (min-width:576px) and (max-width: 960px){
+@media screen and (min-width:576px) and (max-width: 768px){
 header{
         padding: 0;
         background: #FFF;
@@ -755,8 +755,8 @@ header{
     padding: 0 67px 0 67px;
     margin-top: 30px;
     }
-} 
- */
+}  */
+
 
 
 
